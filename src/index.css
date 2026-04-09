@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Nohemi';
+    src: url('./assets/font/Nohemi-Bold-BF6438cc577b524.woff') format('woff2');
+    font-weight: 400; 
+    font-style: normal;
+  }
+
+   body{
+    font-family: 'Nohemi';
+  } 
